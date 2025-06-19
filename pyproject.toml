@@ -1,0 +1,13 @@
+[project]
+name = "keylogger"
+version = "0.1.0"
+dependencies = ["pynput"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+log_format = "%(message)s"
+log_date_format = "%H:%M:%S"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
